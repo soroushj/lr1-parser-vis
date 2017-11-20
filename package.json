@@ -1,0 +1,56 @@
+{
+  "name": "lr1-parser-vis",
+  "version": "1.0.0",
+  "description": "Create LR(1) parsers in your browser, and see how they work.",
+  "scripts": {
+    "build": "webpack --config webpack-prod.config.js --colors",
+    "dev": "webpack-dev-server --open --config webpack-dev.config.js --watch --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soroushj/lr1-parser-vis.git"
+  },
+  "keywords": [
+    "parser",
+    "lr-parser",
+    "canonical-lr-parser"
+  ],
+  "author": "Soroush Javadi <soroush.javadi@gmail.com> (https://github.com/soroushj)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soroushj/lr1-parser-vis/issues"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "rules": {
+      "semi": 2
+    }
+  },
+  "homepage": "https://github.com/soroushj/lr1-parser-vis#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.11.0",
+    "eslint-loader": "^1.3.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.17.0",
+    "node-sass": "^4.7.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.9.0",
+    "normalize.css": "^7.0.0"
+  }
+}
