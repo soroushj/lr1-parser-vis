@@ -1,7 +1,7 @@
 $gray-1x1: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABHNCSVQICAgIfAhkiAAAAA1JREFUCJljaGho+A8ABYQCgK6abbIAAAAASUVORK5CYII=);
 $gray-1x25: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAZCAYAAADwkER/AAAABHNCSVQICAgIfAhkiAAAABRJREFUCJljaGho+M/EwMDAMAAEAD1LArD9i5DjAAAAAElFTkSuQmCC);
 $gray-25x1: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAABCAYAAAArbAWVAAAABHNCSVQICAgIfAhkiAAAABBJREFUCJljbGho+M9AYwAA9ekCge0tIYUAAAAASUVORK5CYII=);
-$white-1x1: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABHNCSVQICAgIfAhkiAAAAA1JREFUCJlj+P///38ACfsD/QjR6B4AAAAASUVORK5CYII=);
+$white-3x1: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAYAAAAb4BS0AAAABHNCSVQICAgIfAhkiAAAABBJREFUCJlj/P///38GKAAAKfAD/rS53zMAAAAASUVORK5CYII=);
 
 header,
 footer {
@@ -171,8 +171,8 @@ b {
 }
 
 .tree-container ul:last-child {
-  background-image: $gray-1x1, $gray-1x25, $white-1x1;
-  background-position: 75px 0, 25px 0, 25px 0;
+  background-image: $gray-1x1, $gray-1x25, $white-3x1;
+  background-position: 75px 0, 25px 0, 24px 0;
   background-repeat: repeat-y, no-repeat, repeat-y;
 }
 
