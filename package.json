@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Create LR(1) parsers in your browser, and see how they work.",
   "scripts": {
+    "prebuild": "rimraf docs",
     "build": "webpack --config webpack-prod.config.js --colors",
     "dev": "webpack-dev-server --open --config webpack-dev.config.js --watch --colors"
   },
@@ -44,6 +45,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^2.17.0",
     "node-sass": "^4.7.1",
+    "rimraf": "^2.6.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "webpack": "^3.8.1",
