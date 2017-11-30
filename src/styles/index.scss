@@ -3,6 +3,10 @@ $gray-1x25: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAZCAYAAADwkE
 $gray-25x1: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAABCAYAAAArbAWVAAAABHNCSVQICAgIfAhkiAAAABBJREFUCJljbGho+M9AYwAA9ekCge0tIYUAAAAASUVORK5CYII=);
 $white-3x1: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAYAAAAb4BS0AAAABHNCSVQICAgIfAhkiAAAABBJREFUCJlj/P///38GKAAAKfAD/rS53zMAAAAASUVORK5CYII=);
 
+body {
+  font-family: sans-serif;
+}
+
 header,
 footer {
   background-color: #223;
