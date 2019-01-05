@@ -4,7 +4,7 @@
   "description": "Create LR(1) parsers in your browser and see how they work.",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "parcel build src/index.html",
+    "build": "parcel build --public-url '.' src/index.html",
     "dev": "parcel src/index.html"
   },
   "repository": {
