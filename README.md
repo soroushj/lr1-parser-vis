@@ -6,6 +6,4 @@ Create [LR(1) parsers](https://en.wikipedia.org/wiki/Canonical_LR_parser) in you
 
 ## Credits
 
-This project uses the [Webpack Frontend Starterkit](https://github.com/wbkd/yet-another-webpack-es6-starterkit).
-
 The sample grammar is taken from [CSCE 434-500: Compiler Design](https://parasol.tamu.edu/~rwerger/Courses/434/).

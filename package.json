@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Create LR(1) parsers in your browser, and see how they work.",
   "scripts": {
-    "prebuild": "rimraf docs",
-    "build": "webpack --config webpack-prod.config.js --colors",
-    "dev": "webpack-dev-server --open --config webpack-dev.config.js --watch --colors"
+    "prebuild": "rimraf dist",
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,35 +21,11 @@
   "bugs": {
     "url": "https://github.com/soroushj/lr1-parser-vis/issues"
   },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "node": true
-    },
-    "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module"
-    },
-    "rules": {
-      "semi": 2
-    }
-  },
   "homepage": "https://github.com/soroushj/lr1-parser-vis#readme",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-es2015": "^6.9.0",
-    "css-loader": "^0.28.11",
-    "eslint": "^4.19.1",
-    "eslint-loader": "^1.3.0",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "html-webpack-plugin": "^2.17.0",
-    "node-sass": "^4.9.0",
-    "rimraf": "^2.6.2",
-    "sass-loader": "^6.0.7",
-    "style-loader": "^0.18.2",
-    "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.2"
+    "parcel-bundler": "^1.11.0",
+    "rimraf": "^2.6.3",
+    "sass": "^1.15.3"
   },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
