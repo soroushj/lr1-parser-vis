@@ -52,7 +52,7 @@
     "webpack-dev-server": "^2.11.2"
   },
   "dependencies": {
-    "babel-polyfill": "^6.9.0",
+    "@babel/polyfill": "^7.2.5",
     "normalize.css": "^7.0.0"
   }
 }
