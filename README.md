@@ -4,7 +4,7 @@ Create [LR(1) parsers](https://en.wikipedia.org/wiki/Canonical_LR_parser) in you
 
 ## Online Demo
 
-Check out the [online demo](https://soroushj.github.io/lr1-parser-vis)!
+Check out the [**online demo**](https://soroushj.github.io/lr1-parser-vis)!
 
 ## Credits
 
