@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/soroushj/lr1-parser-vis#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.3",
+    "parcel-bundler": "^1.12.4",
     "rimraf": "^2.6.3",
     "sass": "^1.15.3"
   },
