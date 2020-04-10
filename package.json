@@ -24,11 +24,11 @@
   "homepage": "https://github.com/soroushj/lr1-parser-vis#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "rimraf": "^2.6.3",
-    "sass": "^1.15.3"
+    "rimraf": "^2.7.1",
+    "sass": "^1.26.3"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.2.5",
+    "@babel/polyfill": "^7.8.7",
     "normalize.css": "^8.0.1"
   }
 }
