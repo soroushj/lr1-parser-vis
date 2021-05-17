@@ -79,5 +79,8 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+# Parcel cache
+.parcel-cache/
+
 # Project build output
 dist/

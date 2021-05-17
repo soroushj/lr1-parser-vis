@@ -1,12 +1,15 @@
 {
   "name": "lr1-parser-vis",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Create LR(1) parsers in your browser and see how they work.",
   "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "parcel build --public-url 'https://soroushj.github.io/lr1-parser-vis/' src/index.html",
-    "dev": "parcel --public-url '.' src/index.html"
+    "start": "parcel serve ./src/index.html",
+    "prebuild": "rimraf ./dist",
+    "build": "parcel build --public-url 'https://soroushj.github.io/lr1-parser-vis/' --dist-dir ./dist ./src/index.html"
   },
+  "browserslist": [
+    "defaults"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/soroushj/lr1-parser-vis.git"
@@ -23,12 +26,11 @@
   },
   "homepage": "https://github.com/soroushj/lr1-parser-vis#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "rimraf": "^2.7.1",
-    "sass": "^1.26.10"
+    "@parcel/transformer-sass": "^2.0.0-nightly.673",
+    "parcel": "^2.0.0-beta.2",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.10.4",
     "normalize.css": "^8.0.1"
   }
 }

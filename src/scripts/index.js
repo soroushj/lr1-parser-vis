@@ -1,6 +1,5 @@
 'use strict';
 
-import '@babel/polyfill';
 import 'normalize.css';
 import '../styles/index.scss';
 import Lr1ParserVis from './Lr1ParserVis';
