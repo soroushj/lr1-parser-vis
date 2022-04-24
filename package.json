@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/soroushj/lr1-parser-vis#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.3.1",
-    "parcel": "^2.3.1",
+    "@parcel/transformer-sass": "^2.5.0",
+    "parcel": "^2.5.0",
     "rimraf": "^3.0.2"
   },
   "dependencies": {
