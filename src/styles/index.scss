@@ -184,7 +184,7 @@ b {
   background-repeat: repeat-y, no-repeat, repeat-y;
 }
 
-.tree-container > ul {
+.tree-container>ul {
   background-image: $gray-1x1;
   background-position: 75px 0;
   background-repeat: repeat-y;
@@ -199,7 +199,7 @@ b {
   background-repeat: no-repeat;
 }
 
-.tree-container > ul > li {
+.tree-container>ul>li {
   background-image: none;
 }
 

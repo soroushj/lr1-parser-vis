@@ -15,7 +15,7 @@ export default function (document) {
   let _parseSteps;
 
   // Private functions for parsing
-  
+
   const top = stack => (
     stack[stack.length - 1]
   );
@@ -94,8 +94,8 @@ export default function (document) {
           if (_rules[j].lhs === symbol) {
             let f = first(
               closureSet[i].position + 1 < closureSet[i].rule.rhs.length ?
-              closureSet[i].rule.rhs[closureSet[i].position + 1] :
-              closureSet[i].lookahead);
+                closureSet[i].rule.rhs[closureSet[i].position + 1] :
+                closureSet[i].lookahead);
             for (let k = 0; k < f.length; ++k) {
               let item = {
                 rule: _rules[j],
@@ -317,7 +317,7 @@ export default function (document) {
     createCollection();
     createParseTable();
   };
-  
+
   this.parse = inputStr => {
     if (_parseTable === undefined) {
       return;
@@ -358,7 +358,7 @@ export default function (document) {
           error: 'parse error'
         };
       }
-      
+
       _parseSteps.push({
         stateStack: stateStack.slice(0),
         symbolStack: symbolStack.slice(0),
@@ -387,14 +387,14 @@ export default function (document) {
 
   this.clear = () => {
     _symbols =
-    _symbolsTerminalOffset =
-    _endMarker =
-    _rules =
-    _collection =
-    _parseTable =
-    _parseTableHasConflict =
-    _parseSteps =
-    undefined;
+      _symbolsTerminalOffset =
+      _endMarker =
+      _rules =
+      _collection =
+      _parseTable =
+      _parseTableHasConflict =
+      _parseSteps =
+      undefined;
   };
 
   // Private functions for rendering
@@ -551,7 +551,7 @@ export default function (document) {
     });
     container.appendChild(preNode);
   };
-  
+
   this.renderCollection = container => {
     container.innerHTML = '';
     if (_collection === undefined) {
@@ -562,8 +562,8 @@ export default function (document) {
       set.forEach((item, itemIndex) => {
         preNode.appendChild(element('i',
           itemIndex === 0 ?
-          ['I', element('sub', setIndex), ' '] :
-          undefined
+            ['I', element('sub', setIndex), ' '] :
+            undefined
         ));
         itemNodes(item).forEach(itemNode => {
           preNode.appendChild(itemNode);
@@ -579,7 +579,7 @@ export default function (document) {
     });
     container.appendChild(preNode);
   };
-  
+
   this.renderParseTable = container => {
     container.innerHTML = '';
     if (_parseTable === undefined) {
@@ -624,7 +624,7 @@ export default function (document) {
     }
     container.appendChild(tableNode);
   };
-  
+
   this.renderParseSteps = container => {
     container.innerHTML = '';
     if (_parseSteps === undefined) {
@@ -651,13 +651,13 @@ export default function (document) {
       trNode.appendChild(element('td', actionStr(step.action), step.action.type));
       trNode.appendChild(element('td',
         step.action.type === 'reduce' ?
-        ruleNodes(step.action.rule) :
-        undefined
+          ruleNodes(step.action.rule) :
+          undefined
       ));
     });
     container.appendChild(tableNode);
   };
-  
+
   this.renderParseTree = container => {
     container.innerHTML = '';
     if (_parseSteps === undefined) {
